@@ -134,7 +134,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "LANCE TECH v1.0.1" //AWL_ABL_SPEED_CHANGE
+#define CUSTOM_MACHINE_NAME "LANCE TECH v1.0.2" //AWL_NEW_BLTOUCH_BRACKET
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
@@ -909,7 +909,7 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
-#define NOZZLE_TO_PROBE_OFFSET { -42, -18, -3.30 } //AWL_ABL_SPEED_CHANGE
+#define NOZZLE_TO_PROBE_OFFSET { -41, -12, 0 } //AWL_NEW_BLTOUCH_BRACKET
 
 // Certain types of probes need to stay away from edges
 #define MIN_PROBE_EDGE 10
